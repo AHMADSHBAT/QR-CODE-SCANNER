@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tesseract-OCR-Scanner</string>
+    <string name="title_activity_scan_qr_code">scan it</string>
+    <string name="close">Close</string>
+    <string name="auto_scan_notification">Scan here</string>
+    <string name="notification">hint</string>
+    <string name="positive_button_confirm">Confirm</string>
+    <string name="could_not_read_qr_code_from_scanner">Cannot be read</string>
+    <string name="camera_not_found">Camera not found</string>
+    <string name="is_qr_code_scanner">Scan </string>
+    <string name="is_open_flashlight">Flash On </string>
+    <string name="take_photos">Photo identification number</string>
+</resources>

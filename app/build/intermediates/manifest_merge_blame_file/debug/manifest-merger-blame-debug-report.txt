@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zl.tesseract.scanner"
+4    android:versionCode="4"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:5:5-64
+11-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:7:5-65
+13-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:7:22-63
+14
+15    <uses-feature
+15-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:9:5-11:35
+16        android:name="android.hardware.camera"
+16-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:10:9-47
+17        android:required="false" />
+17-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:11:9-33
+18    <uses-feature
+18-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:13:5-15:35
+19        android:name="android.hardware.camera.autofocus"
+19-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:14:9-57
+20        android:required="false" />
+20-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:15:9-33
+21    <uses-feature
+21-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:17:5-19:35
+22        android:name="android.hardware.camera.flash"
+22-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:18:9-53
+23        android:required="false" />
+23-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:19:9-33
+24
+25    <application
+25-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:21:5-41:19
+26        android:name="com.zl.tesseract.scanner.MyApplication"
+26-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:22:9-62
+27        android:allowBackup="true"
+27-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:23:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:24:9-43
+31        android:label="@string/app_name"
+31-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:25:9-41
+32        android:supportsRtl="true"
+32-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:26:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.AppCompat.NoActionBar" >
+34-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:27:9-59
+35        <meta-data
+35-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:29:9-31:35
+36            android:name="android.max_aspect"
+36-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:30:13-46
+37            android:value="2.4" />
+37-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:31:13-32
+38
+39        <activity
+39-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:33:9-40:20
+40            android:name="com.zl.tesseract.scanner.ScannerActivity"
+40-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:33:19-58
+41            android:screenOrientation="portrait" >
+41-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:34:19-55
+42            <intent-filter>
+42-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:35:13-39:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:36:17-68
+43-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:36:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:38:17-76
+45-->D:\QR\Tesseract-OCR-Scanner\app\src\main\AndroidManifest.xml:38:27-74
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>

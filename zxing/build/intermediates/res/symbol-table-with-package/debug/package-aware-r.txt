@@ -1,0 +1,2 @@
+com.google.zxing
+string app_name
